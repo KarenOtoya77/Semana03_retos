@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Bienvenido - Semana 03 PachaQtec</h1> <br>
+    <p>Realiza la siguiente encuesta:</p>
+
+    <section>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate debitis, tempore, odio mollitia unde, quod sunt incidunt eos itaque voluptate accusamus possimus neque necessitatibus culpa similique in atque laudantium sit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eveniet! Possimus, tenetur! Possimus recusandae aperiam repellat voluptatem corrupti illo debitis quod quos, beatae dolore mollitia porro veniam inventore, sed saepe.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum impedit officia et incidunt delectus, repudiandae illum esse quisquam facere deleniti sequi? Quasi, quam commodi ratione mollitia minus natus beatae enim.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat non, accusamus assumenda numquam laudantium tempora cupiditate consectetur voluptate rem culpa minus blanditiis similique nisi ex quibusdam natus sequi architecto! Accusamus.
+    </section>
+
+    <br><br>
+
+    <section>
+       
+         <form action="" method="GET">
+                <fieldset>
+                    <legend>Formulario</legend>
+                    
+                    <div>
+                    <label form="nombre">Nombres:</label>
+                    <input id="nombre"  type="text" placeholder="Ingrese su Nombre" required >
+                    </div>
+
+                    <div>
+                    <label form="apellido">Apellidos:</label>
+                    <input id="apellido" type="text"  placeholder="Ingrese su Apellido" required >
+                    </div>
+
+                    <div>
+                    <label form="fecha">Fecha de Nacimiento:</label>
+                    <input id="fecha" type="date"  placeholder="" required>
+                    </div>
+
+                    <div>
+                        <label form="cel">Número Celular:</label>
+                        <input id="cel" type="number"  placeholder="" required>
+                        </div>
+                        
+                    <div>
+                        <label form="sexo">Sexo:</label>
+                            <label>Masculino
+                            <input type="radio"  name="sexo" checked>
+                            </label>
+
+                            <label> Femenino
+                            <input type="radio"  name="sexo" >
+                            </label>
+                    </div>
+
+                        <div>
+                            <label form="dni">DNI:</label>
+                            <input  id="dni"  type="text" placeholder="DNI"  required>
+                        </div>
+
+                        <div>
+                            <label form="email">Correo Electronico:</label>
+                            <input  id="email" type="email"  placeholder="Correo Electronico"required>
+                        </div>
+
+                        <div>
+                            <label form="email">País:</label>
+                            <select name="select">
+                                <option value="vPe">Perú</option> 
+                                <option value="vCo" >Colombia</option>
+                                <option value="vAr" selected>Argentina</option>
+                              </select>
+                        </div>
+
+                        <div>
+                            <labe>Archivo:</labe>
+                            <input type="file" accept="image/*" >
+                        </div>
+
+                        <div>
+                            <label form="email">Descripción:</label>
+                            <textarea rows="4" cols="50"></textarea>
+                        </div>
+
+
+                        <button type="button">Enviar</button>
+                        <button type="reset">Limpiar</button> 
+                      
+                    </fieldset>
+            </form>
+    </section>
+
+
+
+    </form>
+    <style>
+        div
+        {
+            margin-bottom: 1em;
+        }
+        </style>
+</body>
+
+</html>
