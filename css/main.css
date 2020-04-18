@@ -1,0 +1,104 @@
+header{
+    height: 525px;
+    background:url('../Imagenes/MaskGroup.png');
+}
+
+h1{
+    text-align: center;
+}
+
+.sobre {
+    position:absolute;
+   }
+
+.input-formulario{
+    background: #FFFFFF;
+    border: 10px ;
+    width: 363px;
+    padding: 15px;
+    margin-bottom: 10px
+}
+
+.acerca{
+background: #7299FE;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: #F8F8F8;
+padding: 50px;
+height: 318px;
+}
+
+.skill{
+    background: #9122FF;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #F8F8F8;
+    padding: 50px;
+    height: 318px;
+}
+
+.portafolio{
+    background: #FFD233;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #F8F8F8;
+    padding: 50px;
+    height: 318px;
+
+}
+
+.clientes{
+    background: #3F4E62;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #F8F8F8;
+    padding: 50px;
+    height: 180px;
+}
+
+.contacto{
+    background: #1687A0;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #F8F8F8;
+    padding: 50px;
+    height: 318px;
+}
+
+
+.p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+
+.btn{
+        width: 167px;
+        height: 56px;
+        color: #fff;
+        background-color: #233451;
+        border-radius: 5px;  
+}
+
+.btn_cv{
+    background: #D16FFF;
+    border-radius: 20px;
+    width: 187px;
+    height: 62px;
+    color: #FFFFFF;
+}
