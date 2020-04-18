@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form action="#" method="GET">
+            <fieldset>
+                    <legend>Formulario</legend>
+                    <div>
+                        <label form="nombre">Nombres:</label>
+                        <input id="nombre"  type="text" placeholder="Ingrese su Nombre" required pattern="[A-Za-z]+">
+                    </div>
+        
+                    <div>
+                    <label form="apellido">Apellidos:</label>
+                    <input id="apellido" type="text"  placeholder="Ingrese su Apellido" required pattern="[A-Za-z]+">
+                </div>
+        
+                <div>
+                    <label form="edad">Edad:</label>
+                    <input id="edad" type="number"  placeholder="" min="18" max="80">
+                </div>
+                
+                <div>
+                    <label form="sexo">Sexo:</label>
+                        <label>Masculino
+                            <input type="radio"  name="sexo" checked>
+                        </label>
+        
+                        <label> Femenino
+                            <input type="radio"  name="sexo" >
+                        </label>
+                </div>
+        
+                <div>
+                    <label form="dni">DNI:</label>
+                    <input  id="dni"  type="text" placeholder="DNI"  pattern="[A-Za-z0-9]+" minlength="8">
+                </div>
+
+                <div>
+                    <label form="cel">Celular:</label>
+                    <input  id="cel"  type="tel" placeholder="Celular"  pattern="[0-9]{9}" maxlength="9">
+                </div>
+
+        
+                <div>
+                    <label form="email">Correo Electronico:</label>
+                    <input  id="email" type="email"  placeholder="Correo Electronico">
+                </div>
+
+                <div>
+                    <label form="color">Escoge tu color preferido:</label>
+                    <input type="color">
+                </div>
+
+                     <button type="button">Enviar</button>
+                     <button type="reset">Limpiar</button> 
+                    
+            </fieldset>
+        </form>
+
+    </section>
+
+
+
+    
+</body>
+<style>
+form{
+    padding: 15px;
+    border-radius: 20px;
+    background-color:aquamarine;
+}
+
+    div
+    {
+        margin-bottom: 1em;
+    }
+
+    input:focus{
+    background:darksalmon;
+}
+
+button{
+    cursor:pointer;
+}
+    </style>
+</html>
